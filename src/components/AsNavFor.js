@@ -14,7 +14,7 @@ function AsNavFor() {
     {
       nome: "ADS - Administração Setorial",
       bis: [
-        { nome: "Recursos Humanos", imagem: "/images/grh.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZTlkYWM0NTAtNzEwNS00MTg5LThiODEtYWY5NTg0ZmRmOWNkIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
+        { nome: "Recursos Humanos", imagem: "/images/grh.png", url: "https://app.powerbi.com/view?r=eyJrIjoiYWE0MGVkMjQtZjE0MC00YzI1LTkyZjgtNDM3Y2NkNDI0NzIwIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
         { nome: "Contratos", imagem: "/images/contratos.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZTUzNDIwN2EtZDlhZS00MTk5LWJjNjQtZTQxZTEyYjg2OGYyIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
         { nome: "Protocolo", imagem: "/images/protocolo.png", url: "https://app.powerbi.com/view?r=eyJrIjoiOTgxNDM0NDktZmJjYS00MDYwLWI1YmUtOWIzNTQ4MDc0ODhhIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"}
       ]
@@ -28,9 +28,9 @@ function AsNavFor() {
       ]
     },
     {
-      nome: "ADI - Coordenadoria de Contratos de Concessão",
+      nome: "ADI - Assessoria de Demandas Institucionais",
       bis: [
-        { nome: "BI ADI 3", imagem: "/images/bi_ads_3.jpg", url: "https://url-do-bi-ads-3.com" }
+        { nome: "Acompanhamento e Controle", imagem: "/images/ata.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZTcwYjU0ZmEtMTBiMi00Y2EzLTkzZDctZjYyOTUzMjhlYTE2IiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9&pageName=ReportSection0c555e4164e3a67400da" }
       ]
     },
     {

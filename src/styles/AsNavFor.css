@@ -9,6 +9,8 @@
   
   .slider-section {
     margin-bottom: 80px;
+    position: relative;
+    padding-bottom: 30px; /* Espaço para os dots */
   }
   
   .slider-section h4 {
@@ -22,7 +24,9 @@
   
   .slider-setores, .slider-bis {
     margin: 0 auto;
-    max-width: 800px;
+    max-width: 75%;
+    padding: 0 20px;
+    box-sizing: border-box;
   }
   
   .setor-slide img, .bi-slide img {
@@ -36,7 +40,7 @@
   .setor-slide h3, .bi-slide h3 {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 16px;
     text-transform: uppercase;
     background-color: rgba(0, 80, 138, 0.1);
     padding: 10px;
@@ -53,10 +57,30 @@
   }
   
   /* Estilize os dots */
+  .slick-dots {
+    bottom: -30px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
   .slick-dots li button:before {
     color: #00508a;
   }
   
   .slick-dots li.slick-active button:before {
     color: #00a8e8;
+  }
+
+  @media (max-width: 768px) {
+    .slick-prev {
+      left: -10px;
+    }
+    .slick-next {
+      right: -10px;
+    }
+    .slider-setores, .slider-bis {
+      max-width: 90%; /* Aumenta um pouco a largura em telas menores */
+    }
   }

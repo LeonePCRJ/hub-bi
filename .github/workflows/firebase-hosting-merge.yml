@@ -11,8 +11,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
+      - name: Clean npm cache
+        run: npm cache clean --force
       - name: Install dependencies
-        run: npm ci
+        run: npm install --registry=https://registry.npmjs.org
+      - name: Debug - List directory contents and installed packages
+        run: |
+          ls -la
+          npm list --depth=0
       - name: Build
         run: npm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
