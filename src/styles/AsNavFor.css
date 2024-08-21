@@ -19,12 +19,12 @@
     color: #00508a;
     margin-bottom: 15px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
   }
   
   .slider-setores, .slider-bis {
     margin: 0 auto;
-    max-width: 75%;
+    max-width: 55%;
     padding: 0 20px;
     box-sizing: border-box;
   }
