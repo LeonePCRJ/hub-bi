@@ -14,8 +14,8 @@ function AsNavFor() {
     {
       nome: "ADS - Administração Setorial",
       bis: [
-        { nome: "Recursos Humanos", imagem: "/images/grh.png", url: "https://app.powerbi.com/view?r=eyJrIjoiNTdhY2VhOTctOThmMS00OGE4LWI0N2EtYjZmOGE3NTkwNjk0IiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
-        { nome: "Contratos", imagem: "/images/contratos.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZTUzNDIwN2EtZDlhZS00MTk5LWJjNjQtZTQxZTEyYjg2OGYyIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
+        { nome: "Recursos Humanos", imagem: "/images/grh.png", url: "https://app.powerbi.com/view?r=eyJrIjoiYWE0MGVkMjQtZjE0MC00YzI1LTkyZjgtNDM3Y2NkNDI0NzIwIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
+        { nome: "Contratos", imagem: "/images/contratos.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZmRjNWQ4NDEtZjFjYi00Njg3LTkzZTQtMmFjMTE4NzY4NzUyIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
         { nome: "Protocolo", imagem: "/images/protocolo.png", url: "https://app.powerbi.com/view?r=eyJrIjoiOTgxNDM0NDktZmJjYS00MDYwLWI1YmUtOWIzNTQ4MDc0ODhhIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"}
       ]
     },
