@@ -24,10 +24,7 @@ function AsNavFor() {
       bis: [
         { nome: "STPL", imagem: "/images/stpl.png", url: "https://lookerstudio.google.com/u/0/reporting/6425b57a-e4d5-4a2b-83be-9db54642547c/page/firqD?s=rXdw6YXH3T0" },
         { nome: "Histórico de Índices", imagem: "/images/indices.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZmU0NzAyNzctMWEyNS00YzFiLTllMWQtOTUwMGRlMGFhMDhmIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
-        { nome: "Multa Contratual", imagem: "/images/multa_disciplinar.png", url: "https://app.powerbi.com/view?r=eyJrIjoiM2RjYmY2YTktODUzMC00MmQzLWFmN2UtYTE2MWVlYmFmNzczIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"}
         { nome: "Multa Disciplinar", imagem: "/images/multa_disciplinar.png", url: "https://app.powerbi.com/view?r=eyJrIjoiYTkyMTc5MmEtMzI0Ni00ZDJlLTk0ODktZTM4NjQ2Yjc2MzFmIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"}
-        { nome: "Histórico RMC e BIP", imagem: "/images/multa_disciplinar.png", url: "https://app.powerbi.com/view?r=eyJrIjoiNmM3ZTQxY2ItNTVjMi00M2Y1LTk2ZDctMmFkYTc4ZTMzNTY1IiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"}
-      ]        
       ]
     },
     {
