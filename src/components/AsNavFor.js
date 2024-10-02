@@ -22,7 +22,7 @@ function AsNavFor() {
     {
       nome: "CCCO - Coordenadoria de Contratos de Concessão",
       bis: [
-        { nome: "STPL", imagem: "/images/stpl.png", url: "https://lookerstudio.google.com/u/0/reporting/6425b57a-e4d5-4a2b-83be-9db54642547c/page/firqD?s=rXdw6YXH3T0" },
+        { nome: "STPL", imagem: "/images/stpl.png", url: "https://lookerstudio.google.com/reporting/c3920c69-cfd8-4b4e-a6f4-aee99ea0ff02/page/firqD" },
         { nome: "Histórico de Índices", imagem: "/images/indices.png", url: "https://app.powerbi.com/view?r=eyJrIjoiZmU0NzAyNzctMWEyNS00YzFiLTllMWQtOTUwMGRlMGFhMDhmIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
         { nome: "Multa Contratual", imagem: "/images/multa_contratual.png", url: "https://app.powerbi.com/view?r=eyJrIjoiM2RjYmY2YTktODUzMC00MmQzLWFmN2UtYTE2MWVlYmFmNzczIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
         { nome: "Multa Disciplinar", imagem: "/images/multa_disciplinar.png", url: "https://app.powerbi.com/view?r=eyJrIjoiYTkyMTc5MmEtMzI0Ni00ZDJlLTk0ODktZTM4NjQ2Yjc2MzFmIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"},
