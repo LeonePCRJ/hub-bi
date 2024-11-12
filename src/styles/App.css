@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-header {
@@ -10,18 +13,36 @@
   justify-content: space-between;
   padding: 0 40px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
 }
 
 .App-logo {
   height: 40px;
   width: auto;
-  max-width: 100%;
-  display: block;
-  object-fit: contain;
+  transition: transform 0.3s ease;
 }
 
-h1 {
-  color: #ffffff;
-  font-size: 18px;
+.App-logo:hover {
+  transform: scale(1.05);
+}
+
+.App-header h1 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
   margin: 0;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding: 0 20px;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .App-header h1 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
 }
