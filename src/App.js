@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 import { ThemeProvider } from '@mui/material/styles';
+import { Box } from '@mui/material';
 import { theme } from './theme/theme';
 import SectorGrid from './components/sector-grid';
 import BiDisplay from './components/bi-display';
@@ -10,30 +11,56 @@ function App() {
   const [selectedSector, setSelectedSector] = useState(null);
 
   const handleSectorSelect = (sectorId) => {
-    setSelectedSector(sectorId === selectedSector ? null : sectorId);
+    // Adiciona uma pequena animação ao trocar de setor
+    if (selectedSector && sectorId) {
+      setSelectedSector(null);
+      setTimeout(() => setSelectedSector(sectorId), 300);
+    } else {
+      setSelectedSector(sectorId);
+    }
   };
+
+  const selectedSectorData = selectedSector 
+    ? sectorsData.find(s => s.id === selectedSector)
+    : null;
 
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
         <header className="App-header">
-          <a href="https://transportes.prefeitura.rio/" target="_blank" rel="noopener noreferrer">
-            <img src="/images/RIOPREFEITURA_horizontal_branco.png" alt="Logo Prefeitura Rio" className="App-logo" />
+          <a 
+            href="https://transportes.prefeitura.rio/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <img 
+              src="/images/RIOPREFEITURA_horizontal_branco.png" 
+              alt="Logo Prefeitura Rio" 
+              className="App-logo" 
+            />
           </a>
-          <h1>Central de Relatorios</h1>
+          <h1>Central de Relatórios</h1>
         </header>
-        <main>
+        
+        <Box 
+          sx={{ 
+            minHeight: 'calc(100vh - 85px)',
+            backgroundColor: '#f5f5f5'
+          }}
+        >
           <SectorGrid 
             setores={sectorsData} 
             selectedSector={selectedSector}
             onSectorSelect={handleSectorSelect}
           />
+          
           {selectedSector && (
             <BiDisplay 
-              bis={sectorsData.find(s => s.id === selectedSector).bis}
+              bis={selectedSectorData.bis}
+              sectorName={selectedSectorData.nome}
             />
           )}
-        </main>
+        </Box>
       </div>
     </ThemeProvider>
   );
