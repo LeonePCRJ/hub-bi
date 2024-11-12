@@ -20,7 +20,7 @@ function App() {
           <a href="https://transportes.prefeitura.rio/" target="_blank" rel="noopener noreferrer">
             <img src="/images/RIOPREFEITURA_horizontal_branco.png" alt="Logo Prefeitura Rio" className="App-logo" />
           </a>
-          <h1>Central de BI's</h1>
+          <h1>Central de Relatorios</h1>
         </header>
         <main>
           <SectorGrid 

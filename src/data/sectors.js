@@ -1,7 +1,10 @@
 export const sectorsData = [
     {
       id: 'ads',
-      nome: "ADS - Administração Setorial",
+      sigla: "ADS",
+      nome: "Administração Setorial",
+      descricao: "Setor responsável pela gestão administrativa da SMTR, incluindo recursos humanos e controle de contratos administrativos.",
+      imagem: "/images/setores/ads.png",
       bis: [
         {
           id: 'ads-rh',
@@ -19,7 +22,10 @@ export const sectorsData = [
     },
     {
       id: 'ccco',
-      nome: "CCCO - Coordenadoria de Contratos de Concessão",
+      sigla: "CCCO",
+      nome: "Coordenadoria de Contratos de Concessão",
+      descricao: "Responsável pelo monitoramento e gestão dos contratos de concessão do transporte público municipal.",
+      imagem: "/images/setores/ccco.png",
       bis: [
         {
           id: 'ccco-stpl',
@@ -55,7 +61,10 @@ export const sectorsData = [
     },
     {
       id: 'adi',
-      nome: "ADI - Assessoria de Demandas Institucionais",
+      sigla: "ADI",
+      nome: "Assessoria de Demandas Institucionais",
+      descricao: "Setor responsável pelo atendimento e acompanhamento das demandas institucionais da SMTR.",
+      imagem: "/images/setores/adi.png",
       bis: [
         {
           id: 'adi-acompanhamento',
@@ -67,7 +76,10 @@ export const sectorsData = [
     },
     {
       id: 'corin',
-      nome: "CORIN - Comissão de Recursos de Infração",
+      sigla: "CORIN",
+      nome: "Comissão de Recursos de Infração",
+      descricao: "Responsável pela análise e julgamento dos recursos de infrações de transportes.",
+      imagem: "/images/setores/corin.png",
       bis: [
         {
           id: 'corin-processos',
