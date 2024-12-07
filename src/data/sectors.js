@@ -10,13 +10,13 @@ export const sectorsData = [
           id: 'ads-rh',
           nome: "Recursos Humanos",
           imagem: "/images/grh.png",
-          url: "https://app.powerbi.com/view?r=eyJrIjoiM2VmZWRlYmEtZmJmYi00MzAwLWEyZTEtMzgzYWIwZWVlZWNiIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
+          url: "https://app.powerbi.com/view?r=eyJrIjoiYmZlYmNlMmMtYmZlNi00NTFhLWEwMjctOTZiMmIzMzE4MWQ3IiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
         },
         {
           id: 'ads-contratos',
           nome: "Contratos",
           imagem: "/images/contratos.png",
-          url: "https://app.powerbi.com/view?r=eyJrIjoiZmRjNWQ4NDEtZjFjYi00Njg3LTkzZTQtMmFjMTE4NzY4NzUyIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
+          url: "https://app.powerbi.com/view?r=eyJrIjoiYjI4NDJkYmMtMjgyZi00ODliLTg2MjktMDg0NDAyOTg4MzhlIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
         }
       ]
     },
