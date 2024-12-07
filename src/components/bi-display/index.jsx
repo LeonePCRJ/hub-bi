@@ -7,7 +7,7 @@ const BiDisplay = ({ bis, sectorName }) => {
   return (
     <div className="bi-display">
       <Container maxWidth="lg">
-        <Box sx={{ mb: 4 }}>
+        <Box sx={{ mb: 3 }}>
           <Typography 
             variant="h5" 
             sx={{ 
@@ -15,7 +15,7 @@ const BiDisplay = ({ bis, sectorName }) => {
               color: '#005585',
               textTransform: 'uppercase',
               letterSpacing: '1px',
-              marginBottom: '8px'
+              marginBottom: '8px',
             }}
           >
             Dashboards Disponíveis

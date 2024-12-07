@@ -26,7 +26,7 @@ const SectorCard = ({ setor, selected, onClick }) => {
         >
         <Box sx={{ 
             height: 100, 
-            padding: '20px',
+            padding: '10px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',

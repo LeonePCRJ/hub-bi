@@ -38,7 +38,7 @@ const SectorGrid = ({ setores, selectedSector, onSectorSelect }) => {
                   <Box sx={{ 
                     display: 'flex',
                     alignItems: 'center',
-                    padding: '12px 24px',
+                    padding: '6px 6px',
                     backgroundColor: '#005585',
                     position: 'relative'
                   }}>
@@ -80,7 +80,7 @@ const SectorGrid = ({ setores, selectedSector, onSectorSelect }) => {
                           sx={{ 
                             color: 'white',
                             fontFamily: 'Oswald, sans-serif',
-                            marginBottom: '4px'
+                            marginBottom: '2px'
                           }}
                         >
                           {selectedSectorData.sigla}
