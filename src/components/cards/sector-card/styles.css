@@ -1,0 +1,21 @@
+.sector-card {
+    margin: 16px;
+    background-color: white;
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sector-card.selected {
+    border-color: #005585;
+    background-color: rgba(0, 85, 133, 0.05);
+  }
+  
+  .sector-card img {
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .sector-card:hover img {
+    transform: scale(1.05);
+  }
