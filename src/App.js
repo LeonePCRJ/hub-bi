@@ -42,14 +42,9 @@ function App() {
           <h1>Central de Relatórios</h1>
         </header>
         
-        <Box 
-          sx={{ 
-            minHeight: 'calc(100vh - 85px)',
-            backgroundColor: '#f5f5f5'
-          }}
-        >
-          <SectorGrid 
-            setores={sectorsData} 
+        <Box className="App-content">
+          <SectorGrid
+            setores={sectorsData}
             selectedSector={selectedSector}
             onSectorSelect={handleSectorSelect}
           />
