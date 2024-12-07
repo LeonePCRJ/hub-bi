@@ -5,6 +5,11 @@
   flex-direction: column;
 }
 
+.App-content {
+  min-height: calc(100vh - 85px);
+  background-color: #ffffff;
+}
+
 .App-header {
   background-color: #005585;
   min-height: 85px;

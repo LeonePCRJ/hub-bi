@@ -27,7 +27,7 @@ const SectorGrid = ({ setores, selectedSector, onSectorSelect }) => {
         <div className="selected-sector-container">
           <Grid container justifyContent="center">
             <Grid item xs={12} md={8}>
-              <Tooltip title="Voltar para todos os setores" placement="bottom">
+              <Tooltip title="Voltar para os setores" placement="bottom">
                 <Card 
                   className="selected-sector-card"
                   onClick={() => {
