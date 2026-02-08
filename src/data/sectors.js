@@ -78,7 +78,7 @@ export const sectorsData = [
       id: 'corin',
       sigla: "CORIN",
       nome: "Comissão de Recursos de Infração",
-      descricao: "Responsável pela análise e julgamento dos recursos de infrações de transportes.",
+      descricao: "Résponsável pelos procedimentos recursais e julgamentos dos recursos administrativos referentes às sanções aplicadas por infração às normas regulamentares dos modos de transporte público.",
       imagem: "/images/setores/corin.png",
       bis: [
         {
@@ -86,6 +86,36 @@ export const sectorsData = [
           nome: "Controle Processos",
           imagem: "/images/corin.png",
           url: "https://app.powerbi.com/view?r=eyJrIjoiNGYxODE0NTMtMGU3YS00NWExLWFhZTktZjBiOGU4YzYzOTNiIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
+        }
+      ]
+    },
+    {
+      id: 'ouve',
+      sigla: "OUVE",
+      nome: "Ouvidoria Especializada",
+      descricao: "Setor responsável pelo recebimento e tratamento de manifestações dos cidadãos, atuando como instrumento de articulação e interlocução entre o cidadão e a Administração Pública.",
+      imagem: "/images/setores/ouvi.png",
+      bis: [
+        {
+          id: 'ouve-painel',
+          nome: "Painel Ouvidoria",
+          imagem: "/images/painel_ouvidoria.jpg",
+          url: "https://app.powerbi.com/view?r=eyJrIjoiMDQ1Y2UyOWUtZjNkNC00MTNiLWExOGEtYWQwNDM2ZDY0ODczIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
+        }
+      ]
+    },
+    {
+      id: 'sejari',
+      sigla: "SEJARI",
+      nome: "Secretaria Executiva das Juntas Especiais de Recursos de Infrações",
+      descricao: "Órgão colegiado responsável pelo julgamento de recursos de infrações de trânsito.",
+      imagem: "/images/setores/sejari.png",
+      bis: [
+        {
+          id: 'sejari-painel',
+          nome: "Painel SEJARI",
+          imagem: "/images/painel_sejari.jpg",
+          url: "https://app.powerbi.com/view?r=eyJrIjoiZWI4NjQzMzEtZTI1My00ZTc0LWJkZDYtNzc4NjBkZjdkOTNkIiwidCI6IjkwNzI2YWVlLWQwMmMtNDlmZS05ODlmLTQ1ZGVmM2QwNjlkYyJ9"
         }
       ]
     }
